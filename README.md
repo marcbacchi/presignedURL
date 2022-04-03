@@ -6,7 +6,7 @@ This is a simple script to create a presigned URL for an s3 bucket object, to en
 3) Set the access policy on the s3 bucket properly
 4) Run the Lambda, which will return the URL
 
-You will need to update the runtime details in the Lambda funtion to call the Python function name.
+You will need to update the runtime details in the Lambda function to call the Python function name.
 
 Not my own work.
 This was gathered from the Boto3 docs here:  https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-presigned-urls.html
